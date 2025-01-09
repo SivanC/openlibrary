@@ -1,8 +1,8 @@
 # Translations template for Open Library.
-# Copyright (C) 2024 Internet Archive
+# Copyright (C) 2025 Internet Archive
 # This file is distributed under the same license as the Open Library
 # project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 #, fuzzy
 msgid ""
@@ -6050,8 +6050,8 @@ msgstr ""
 msgid "Search Open Library for %s"
 msgstr ""
 
-#: BookSearchInside.html FulltextSearchSuggestion.html ReadButton.html
-#: SearchNavigation.html search/inside.html search/snippets.html
+#: BookSearchInside.html FulltextSearchSuggestion.html SearchNavigation.html
+#: search/inside.html search/snippets.html
 msgid "Search Inside"
 msgstr ""
 
@@ -7488,10 +7488,6 @@ msgstr ""
 
 #: ReadButton.html
 msgid "Listen"
-msgstr ""
-
-#: ReadButton.html
-msgid "Download"
 msgstr ""
 
 #: ReadButton.html

@@ -153,44 +153,17 @@
     &:first-child { border-radius: 5px 5px 0 0; }
     &:last-child { border-radius: 0 0 5px 5px; }
   }
-  // search inside form-specific styles
-  form {
-    display: flex;
-    align-items: center;
-  }
-  input {
-    font-family: inherit;
-    font-size: 16px;
-    border: transparent;
-    padding: 16.25px 10px 8.25px 42px;
-    // override flex min-width: auto to shrink to form
-    min-width: 0;
-    transition: background-color .2s;
-    &:hover { background-color: @lighter-grey; }
-    &::placeholder { color: @black; }
-    &:focus::placeholder { color: transparent; }
-  }
   .btn-icon {
     display: inline-block;
     filter: invert(1);
     margin: 5px 2px -3px;
     // width uses higher specificity below
     height: 1.5em;
-    &.search {
-      position: absolute;
-      margin: 0 2px 0 12px;
-      // highlight/click search box through icon
-      pointer-events: none;
-      // override medium text size in edition table links
-      font-size: 16px;
-    }
   }
   // icons
   .listen { background-image: url(/static/images/icons/icon_listen.png); }
-  .search { background-image: url(/static/images/icons/icon_search.png); }
-  .download { background-image: url(/static/images/icons/icon_download.png); }
   .map { background-image: url(/static/images/icons/icon_map.png); }
-  .listen, .search, .download, .map {
+  .listen, .map {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
